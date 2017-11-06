@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>myResume</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/reset.min.css"/>
+    <link rel="stylesheet" href="../css/swiper.min.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+</head>
+<body>
+<div class="music2 music1" id="music1"></div>
+<div class="music musicMove" id="music"></div>
+<audio class="audioMusic" id="audioMusic" src="../audio/god.m4a" preload="none" loop></audio>
+<div class="swiper-container container">
+    <div class="swiper-wrapper">
+        <!-- 第一屏 封面-->
+        <div class="swiper-slide slide1" id="slide1">
+            <div></div>
+            <div></div>
+            <div class="tip" ></div>
+        </div>
+        <!-- 第二屏 介绍-->
+        <div class="swiper-slide slide2" id="slide2">
+            <p class="about">about</p>
+
+            <div class="wire"></div>
+            <div class="images">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <h3 class="lining">李宁</h3>
+
+            <p class="time">1993.10.22</p>
+            <h4 class="add">河北·邢台</h4>
+            <div class="tip" ></div>
+        </div>
+        <!-- 第三屏 介绍-->
+        <div class="swiper-slide slide3" id="slide3">
+            <p class="about">PERSONAL PROFILE</p>
+
+            <div class="wire"></div>
+            <p class="fon fon1">
+                本人性格开朗、稳重、有活力，待人热情、真诚；工作认真负责，积极主动，能吃苦耐劳，用于承受压力，勇于创新；有很强的组织能力和团队协作精神，具有较强的适应能力；纪律性强，工作积极配合；意志坚强，具有较强的无私奉献精神。</p>
+
+            <p class="fon fon2">对待工作认真负责，善于沟通、协调有较强的组织能力与团队精神；活泼开朗、乐观上进、有爱心并善于施教并行；上进心强、勤于学习能不断提高自身的能力与综合素质。</p>
+            <div class="oDiv"></div>
+            <div class="tip" ></div>
+        </div>
+        <!-- 第四屏 学习经历-->
+        <div class="swiper-slide slide4" id="slide4">
+            <p class="about">EDUCATION</p>
+            <div class="wire"></div>
+            <img src="../img/line.png" alt="" class="line"/>
+            <img src="../img/spot.png" alt="" class="spot spot1"/>
+            <img src="../img/spot.png" alt="" class="spot spot2"/>
+            <img src="../img/spot.png" alt="" class="spot spot3"/>
+            <img src="../img/spot.png" alt="" class="spot spot4"/>
+
+            <p class="fon time1">2012.09-2015.06</p>
+
+            <p class="fon sty1 sty">邯郸大学</p>
+
+            <p class="fon time2">2009.09-2012.06</p>
+
+            <p class="fon sty2 sty">内丘第二高中</p>
+
+            <p class="fon time3">2006.09-2009.06</p>
+
+            <p class="fon sty3 sty">内丘第二中学</p>
+
+            <p class="fon time4">2000.09-2006.06</p>
+
+            <p class="fon sty4 sty">磨凹小学</p>
+            <div class="oDiv"></div>
+            <div class="tip" ></div>
+        </div>
+        <!--第五屏 兴趣爱好-->
+        <div class="swiper-slide slide5" id="slide5">
+            <div class="about">WORK EXPERIENCE</div>
+            <div class="wire"></div>
+            <img src="../img/line.png" alt="" class="line"/>
+            <img src="../img/spot.png" alt="" class="spot spot1"/>
+            <img src="../img/spot.png" alt="" class="spot spot2"/>
+            <p class="fon time1">2014.09-2015.07</p>
+            <p class="fon sty1 sty">普世科石油机械</p>
+            <p class="fon time2">2015.09-2017.06</p>
+            <p class="fon sty2 sty">北京开拓明天科技有限公司</p>
+            <div class="oDiv"></div>
+            <div class="tip" ></div>
+        </div>
+        <!--第六屏 技能-->
+        <div class="swiper-slide slide6" id="slide6">
+            <p class="about">SKILL</p>
+            <div class="wire"></div>
+            <div class="up1 up"></div>
+            <div class="down1 down"></div>
+            <span class="left1 left">HTML5</span>
+            <span class="right1 right">87%</span>
+            <div class="up2 up"></div>
+            <div class="down2 down"></div>
+            <span class="left2 left">JAVASCRIPT</span>
+            <span class="right2 right"> 86%</span>
+            <div class="up3 up"></div>
+            <div class="down3 down"></div>
+            <span class="left3 left">CSS3</span>
+            <span class="right3 right">90%</span>
+            <div class="up4 up"></div>
+            <div class="down4 down"></div>
+            <span class="left4 left">NODE</span>
+            <span class="right4 right">82%</span>
+            <div class="oDiv"></div>
+            <div class="tip" ></div>
+        </div>
+        <!--第七屏 联系方式-->
+        <div class="swiper-slide slide7" id="slide7">
+            <p class="about">CONTACT</p>
+            <div class="wire"></div>
+            <img src="../img/erweima.png" alt="二维码" class="er">
+            <div class="oDiv"></div>
+            <div class="contact contact1">QQ:642609161</div>
+            <div class="contact contact2">TEL:15532900653</div>
+            <div class="tip" ></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../js/swiper.min.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>

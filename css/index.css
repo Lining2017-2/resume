@@ -1,0 +1,650 @@
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide .tip{
+    background: url("../img/web-swipe-tip.png")no-repeat;
+    width: .5rem;
+    height:.5rem;
+    position: absolute;
+    left:0;
+    right: 0;
+    opacity: 0;
+    bottom:1rem;
+    margin: 0 auto;
+    z-index: 1000000000000;
+}
+#slide1 .tip{
+    -webkit-animation: bounceInUp 2s linear 3s infinite;
+    -o-animation: bounceInUp 2s linear 3s infinite;
+    animation: bounceInUp 2s linear 3s infinite;
+}
+#slide2 .tip{
+    -webkit-animation: bounceInUp 2s linear 5s infinite;
+    -o-animation: bounceInUp 2s linear 5s infinite;
+    animation: bounceInUp 2s linear 5s infinite;
+}
+#slide3 .tip{
+    -webkit-animation: bounceInUp 2s linear 7s infinite;
+    -o-animation: bounceInUp 2s linear 7s infinite;
+    animation: bounceInUp 2s linear 7s infinite;
+}
+#slide4 .tip{
+    -webkit-animation: bounceInUp 2s linear 8.5s infinite;
+    -o-animation: bounceInUp 2s linear 8.5s infinite;
+    animation: bounceInUp 2s linear 8.5s infinite;
+}
+#slide5 .tip{
+    -webkit-animation: bounceInUp 2s linear 5s infinite;
+    -o-animation: bounceInUp 2s linear 5s infinite;
+    animation: bounceInUp 2s linear 5s infinite;
+}
+#slide6 .tip{
+    -webkit-animation: bounceInUp 2s linear 9s infinite;
+    -o-animation: bounceInUp 2s linear 9s infinite;
+    animation: bounceInUp 2s linear 9s infinite;
+}
+#slide7 .tip{
+    -webkit-animation: bounceInUp 2s linear 5.4s infinite;
+    -o-animation: bounceInUp 2s linear 5.4s infinite;
+    animation: bounceInUp 2s linear 5.4s infinite;
+}
+
+.music{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    right: .5rem;
+    top: 0;
+    z-index: 1000;
+}
+
+.music1{
+    position: absolute;
+    right: 6%;
+    top:3%;
+    width: .7rem;
+    height: .7rem;
+    background: url("../img/music.png")no-repeat;
+    background-size: cover;
+    z-index: 100;
+}
+
+.music2{
+    -webkit-animation: rotateOut 1s linear .6s infinite;
+    -o-animation: rotateOut 1s linear .6s infinite;
+    animation: rotateOut 1s linear .6s infinite;
+}
+
+.musicMove{
+    position: absolute;
+    right: 1%;
+    top:1%;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-size: cover;
+    z-index: 1000;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("../img/background.src") no-repeat;
+    background-size: cover;
+}
+
+#slide1 div:nth-child(1) {
+    opacity: 0;
+    position: absolute;
+    width: 40%;
+    height: 25%;
+    left: 0;
+    right: 0;
+    top: 2.5rem;
+    margin: auto;
+    background: url("../img/slide1.png")no-repeat;
+    background-size: cover;
+    -webkit-animation: zoomIn 1s linear .6s both;
+    -o-animation: zoomIn 1s linear .6s both;
+    animation: zoomIn 1s linear .6s both;
+}
+
+#slide1 div:nth-child(2) {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    bottom: 2.5rem;
+    margin: auto;
+    width: 88%;
+    height: 5%;
+    background: url("../img/slide1.1.png")no-repeat;
+    background-size: cover;
+    -webkit-animation: zoomIn 2s linear .6s both;
+    -o-animation: zoomIn 2s linear .6s both;
+    animation: zoomIn 2s linear .6s both;
+}
+.swiper-slide .about{
+    opacity: 0;
+}
+#slide2 .about, #slide3 .about, #slide4 .about, #slide5 .about, #slide6 .about, #slide7 .about {
+    position: absolute;
+    top: .3rem;
+    left: .5rem;
+    color: rgb(168, 226, 139);
+    font-weight: 700;
+    font-family: Helvetica;
+    font-size: .6rem;
+    -webkit-animation: bounceInLeft 1s linear .2s both;
+    -o-animation: bounceInLeft 1s linear .2s both;
+    animation: bounceInLeft 1s linear .2s both;
+}
+
+#slide2 .wire, #slide3 .wire, #slide4 .wire, #slide5 .wire,#slide6 .wire,#slide7 .wire {
+    position: absolute;
+    top: 1.1rem;
+    left: 0;
+    width: 1.2rem;
+    height: .06rem;
+    background: rgb(168, 226, 139);
+    -webkit-animation: opacity 3s linear 1.2s both;
+    -o-animation: opacity 3s linear 1.2s both;
+    animation: opacity 3s linear 1.2s both;
+}
+
+#slide2 .images {
+    position: relative;
+    top: 2.4rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 4.4rem;
+    height: 4.4rem;
+    z-index: 10;
+}
+
+#slide2 .images div:nth-child(1) {
+    position: absolute;
+    opacity: 0;
+    top: -.22rem;
+    left: -.22rem;
+    width: 110%;
+    height: 110%;
+    z-index: 11;
+    background: url("../img/coil.png")no-repeat;
+    background-size: cover;
+    -webkit-animation: flash 5s linear 1s infinite;
+    -o-animation: flash 5s linear 1s infinite;
+    animation: flash 5s linear 1s infinite;
+}
+
+#slide2 .images div:nth-child(2) {
+    position: absolute;
+    opacity: 0;
+    top: -.44rem;
+    left: -.44rem;
+    width: 120%;
+    height: 120%;
+    z-index: 11;
+    background: url("../img/coil1.png")no-repeat;
+    background-size: cover;
+    -webkit-animation: pulse 5s linear 1s infinite;
+    -o-animation: pulse 5s linear 1s infinite;
+    animation: pulse 5s linear 1s infinite;
+}
+
+#slide2 .images div:nth-child(3) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../img/lining.png")no-repeat;
+    background-size: cover;
+    -webkit-animation: zoomIn 1s linear .6s both;
+    -o-animation: zoomIn 1s linear .6s both;
+    animation: zoomIn 1s linear .6s both;
+}
+
+.slide2 .lining, .time, .add {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#slide2 .lining {
+    bottom: 5rem;
+    font-size: .6rem;
+    color: rgb(168, 226, 139);
+    -webkit-animation: zoomInDown 2s linear .6s both;
+    -o-animation: zoomInDown 2s linear .6s both;
+    animation: zoomInDown 2s linear .6s both;
+}
+
+#slide2 .time {
+    bottom: 4.5rem;
+    font-size: .3rem;
+    color: rgb(56, 75, 45);
+    -webkit-animation: zoomInDown 3s linear .6s both;
+    -o-animation: zoomInDown 3s linear .6s both;
+    animation: zoomInDown 3s linear .6s both;
+}
+
+#slide2 .add {
+    bottom: 3.8rem;
+    font-size: .4rem;
+    color: rgb(255, 255, 255);
+    -webkit-animation: zoomInDown 4s linear .6s both;
+    -o-animation: zoomInDown 4s linear .6s both;
+    animation: zoomInDown 4s linear .6s both;
+}
+
+.slide3 .fon {
+    position: absolute;
+    opacity: 0;
+    left: .8rem;
+    width: 60%;
+    font-size: .36rem;
+    color: #e1dcdc;
+}
+
+#slide3 .fon1 {
+    top: 2rem;
+    -webkit-animation: bounceInLeft 2s linear 1s both;
+    -o-animation: bounceInLeft 2s linear 1s both;
+    animation: bounceInLeft 2s linear 1s both;
+}
+
+#slide3 .fon2 {
+    bottom: 3rem;
+    -webkit-animation: bounceInLeft 3s linear 2s both;
+    -o-animation: bounceInLeft 3s linear 2s both;
+    animation: bounceInLeft 3s linear 2s both;
+}
+
+#slide3 .oDiv, #slide4 .oDiv,#slide5 .oDiv,#slide6 .oDiv,#slide7 .oDiv {
+    position: absolute;
+    width: 15.625%;
+    height: 17.559523809523807%;
+    left: 76.5625%;
+    top: 14.75%;
+}
+#slide3 .oDiv{
+    background: url("../img/person.png")no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: opacity 1s linear 5s both;
+    -o-animation: opacity 1s linear 5s both;
+    animation: opacity 1s linear 5s both;
+}
+#slide4 .oDiv{
+    background: url("../img/education.png")no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: opacity 1s linear 6.5s both;
+    -o-animation: opacity 1s linear 6.5s both;
+    animation: opacity 1s linear 6.5s both;
+}
+#slide5 .oDiv{
+    background: url("../img/job.png")no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: opacity 1s linear 5s both;
+    -o-animation: opacity 1s linear 5s both;
+    animation: opacity 1s linear 5s both;
+}
+#slide6 .oDiv{
+    background: url("../img/jineng.png")no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: opacity 1s linear 7.4s both;
+    -o-animation: opacity 1s linear 7.4s both;
+    animation: opacity 1s linear 7.4s both;
+}
+#slide7 .oDiv{
+    background: url("../img/contact.png")no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: opacity 1s linear 4s both;
+    -o-animation: opacity 1s linear 4s both;
+    animation: opacity 1s linear 4s both;
+}
+.slide4 .line, .slide5 .line{
+    opacity: 0;
+}
+#slide4 .line, #slide5 .line {
+    position: absolute;
+    width: 1.09375%;
+    height: 52.083333333333336%;
+    left: 16.09375%;
+    top: 22.22222222222222%;
+    -webkit-animation: bounceInUp 1s linear .8s both;
+    -o-animation: bounceInUp 1s linear .8s both;
+    animation: bounceInUp 1s linear .8s both;
+}
+
+.slide4 .spot, .slide5 .spot {
+    position: absolute;
+    opacity: 0;
+    width: .2rem;
+    height: .2rem;
+    left: 15.332222%;
+}
+
+.slide4 .fon, .slide5 .fon {
+    position: absolute;
+    opacity: 0;
+    left: 20%;
+    font-size: .065rem;
+    color: rgb(168, 226, 139);
+}
+
+#slide4 .spot1, #slide4 .time1, #slide5 .spot1, #slide5 .time1 {
+    top: 22.22222222222222%;
+}
+
+#slide4 .spot2, #slide4 .time2, #slide5 .spot2, #slide5 .time2 {
+    top: 34.62301587301587%;
+}
+
+#slide4 .spot3, #slide4 .time3 {
+    top: 47.32142857142857%;
+}
+
+#slide4 .spot4, #slide4 .time4 {
+    top: 60.019841269841265%;
+}
+
+#slide4 .sty, #slide5 .sty {
+    color: snow;
+    font-size: .4rem;
+}
+
+#slide4 .sty1, #slide5 .sty1 {
+    top: 25%;
+}
+
+#slide4 .sty2, #slide5 .sty2 {
+    top: 38%;
+}
+
+#slide4 .sty3 {
+    top: 50%;
+}
+
+#slide4 .sty4 {
+    top: 63%;
+}
+#slide4 .spot1,#slide5 .spot1{
+    -webkit-animation: zoomIn 1s linear 1.2s both;
+    -o-animation: zoomIn 1s linear 1.2s both;
+    animation: zoomIn 1s linear 1.2s both;
+}
+#slide4 .time1,#slide5 .time1{
+    -webkit-animation: zoomIn 1s linear 1.6s both;
+    -o-animation: zoomIn 1s linear 1.6s both;
+    animation: zoomIn 1s linear 1.6s both;
+}
+#slide4 .sty1,#slide5 .sty1{
+    -webkit-animation: zoomIn 1s linear 2s both;
+    -o-animation: zoomIn 1s linear 2s both;
+    animation: zoomIn 1s linear 2s both;
+}
+#slide4 .spot2,#slide5 .spot2{
+    -webkit-animation: zoomIn 1s linear 2.4s both;
+    -o-animation: zoomIn 1s linear 2.4s both;
+    animation: zoomIn 1s linear 2.4s both;
+}
+#slide4 .time2,#slide5 .time2{
+    -webkit-animation: zoomIn 1s linear 2.8s both;
+    -o-animation: zoomIn 1s linear 2.8s both;
+    animation: zoomIn 1s linear 2.8s both;
+}
+#slide4 .sty2,#slide5 .sty2{
+    -webkit-animation: zoomIn 1s linear 3.2s both;
+    -o-animation: zoomIn 1s linear 3.2s both;
+    animation: zoomIn 1s linear 3.2s both;
+}
+#slide4 .spot3{
+    -webkit-animation: zoomIn 1s linear 3.6s both;
+    -o-animation: zoomIn 1s linear 3.6s both;
+    animation: zoomIn 1s linear 3.6s both;
+}
+#slide4 .time3{
+    -webkit-animation: zoomIn 1s linear 4s both;
+    -o-animation: zoomIn 1s linear 4s both;
+    animation: zoomIn 1s linear 4s both;
+}
+#slide4 .sty3{
+    -webkit-animation: zoomIn 1s linear 4.4s both;
+    -o-animation: zoomIn 1s linear 4.4s both;
+    animation: zoomIn 1s linear 4.4s both;
+}
+#slide4 .spot4{
+    -webkit-animation: zoomIn 1s linear 4.8s both;
+    -o-animation: zoomIn 1s linear 4.8s both;
+    animation: zoomIn 1s linear 4.8s both;
+}
+#slide4 .time4{
+    -webkit-animation: zoomIn 1s linear 5.2s both;
+    -o-animation: zoomIn 1s linear 5.2s both;
+    animation: zoomIn 1s linear 5.2s both;
+}
+#slide4 .sty4{
+    -webkit-animation: zoomIn 1s linear 5.6s both;
+    -o-animation: zoomIn 1s linear 5.6s both;
+    animation: zoomIn 1s linear 5.6s both;
+}
+
+#slide6 .up {
+    position: absolute;
+    width: 46.875%;
+    height: 1.984126984126984%;
+    left: 15.625%;
+    top: 23.71031746031746%;
+    z-index: 0;
+    background: black;
+}
+
+#slide6 .up1 {
+    top: 24%;
+    -webkit-animation: bounceInLeft 1s linear .8s both;
+    -o-animation: bounceInLeft 1s linear .8s both;
+    animation: bounceInLeft 1s linear .8s both;
+}
+
+#slide6 .up2 {
+    top: 39%;
+    -webkit-animation: bounceInLeft 1s linear 2.4s both;
+    -o-animation: bounceInLeft 1s linear 2.4s both;
+    animation: bounceInLeft 1s linear 2.4s both;
+}
+
+#slide6 .up3 {
+    top: 54%;
+    -webkit-animation: bounceInLeft 1s linear 4s both;
+    -o-animation: bounceInLeft 1s linear 4s both;
+    animation: bounceInLeft 1s linear 4s both;
+}
+
+#slide6 .up4 {
+    top: 69%;
+    -webkit-animation: bounceInLeft 1s linear 5.6s both;
+    -o-animation: bounceInLeft 1s linear 5.6s both;
+    animation: bounceInLeft 1s linear 5.6s both;
+}
+
+#slide6 .down {
+    position: absolute;
+    height: 1.984126984126984%;
+    left: 15.625%;
+    top: 23.71031746031746%;
+    background: rgb(123, 141, 255);
+}
+
+#slide6 .down1 {
+    top: 24%;
+    width: 40%;
+    -webkit-animation: opacity 1s linear 1.6s both;
+    -o-animation: opacity 1s linear 1.6s both;
+    animation: opacity 1s linear 1.6s both;
+
+}
+
+#slide6 .down2 {
+    top: 39%;
+    width: 38%;
+    -webkit-animation: opacity 1s linear 3.2s both;
+    -o-animation: opacity 1s linear 3.2s both;
+    animation: opacity 1s linear 3.2s both;
+}
+
+#slide6 .down3 {
+    top: 54%;
+    width: 42%;
+    -webkit-animation: opacity 1s linear 4.8s both;
+    -o-animation: opacity 1s linear 4.8s both;
+    animation: opacity 1s linear 4.8s both;
+}
+
+#slide6 .down4 {
+    top: 69%;
+    width: 35%;
+    -webkit-animation: opacity 1s linear 6.4s both;
+    -o-animation: opacity 1s linear 6.4s both;
+    animation: opacity 1s linear 6.4s both;
+}
+
+.slide6 .left {
+    position: absolute;
+    opacity: 0;
+    left: 15.625%;
+    font-size: .28rem;
+    color: rgb(123, 141, 255);
+}
+
+#slide6 .left1 {
+    top: 26%;
+    -webkit-animation: bounceInLeft 1s linear 1.2s both;
+    -o-animation: bounceInLeft 1s linear 1.2s both;
+    animation: bounceInLeft 1s linear 1.2s both;
+}
+
+#slide6 .left2 {
+    top: 41%;
+    -webkit-animation: bounceInLeft 1s linear 2.8s both;
+    -o-animation: bounceInLeft 1s linear 2.8s both;
+    animation: bounceInLeft 1s linear 2.8s both;
+}
+
+#slide6 .left3 {
+    top: 56%;
+    -webkit-animation: bounceInLeft 1s linear 4.4s both;
+    -o-animation: bounceInLeft 1s linear 4.4s both;
+    animation: bounceInLeft 1s linear 4.4s both;
+}
+
+#slide6 .left4 {
+    top: 71%;
+    -webkit-animation: bounceInLeft 1s linear 6s both;
+    -o-animation: bounceInLeft 1s linear 6s both;
+    animation: bounceInLeft 1s linear 6s both;
+}
+
+.slide6 .right {
+    position: absolute;
+    opacity: 0;
+    right: 38%;
+    color: snow;
+    font-size: .28rem;
+}
+
+#slide6 .right1 {
+    top: 26%;
+    -webkit-animation: bounceInRight 1s linear 1.2s both;
+    -o-animation: bounceInRight 1s linear 1.2s both;
+    animation: bounceInRight 1s linear 1.2s both;
+}
+
+#slide6 .right2 {
+    top: 41%;
+    -webkit-animation: bounceInRight 1s linear 2.8s both;
+    -o-animation: bounceInRight 1s linear 2.8s both;
+    animation: bounceInRight 1s linear 2.8s both;
+}
+#slide6 .right3 {
+    top: 56%;
+    -webkit-animation: bounceInRight 1s linear 4.4s both;
+    -o-animation: bounceInRight 1s linear 4.4s both;
+    animation: bounceInRight 1s linear 4.4s both;
+}
+
+#slide6 .right4 {
+    top: 71%;
+    -webkit-animation: bounceInRight 1s linear 6s both;
+    -o-animation: bounceInRight 1s linear 6 both;
+    animation: bounceInRight 1s linear 6s both;
+}
+.slide7 .er {
+    opacity: 0;
+}
+#slide7 .er {
+    position: absolute;
+    top: 25%;
+    left: 29%;
+    width: 42%;
+    height: 23%;
+    -webkit-animation: zoomIn 1s linear 1.2s both;
+    -o-animation: zoomIn 1s linear 1.2s both;
+    animation: zoomIn 1s linear 1.2s both;
+}
+.slide7 .contact{
+    opacity: 0;
+}
+#slide7 .contact {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    font-size: .48rem;
+    color: snow;
+    font-family: Helvetica;
+
+}
+
+#slide7 .contact1 {
+    top: 55%;
+    -webkit-animation: bounceInDown 1s linear 2s both;
+    -o-animation: bounceInDown 1s linear 2s both;
+    animation: bounceInDown 1s linear 2s both;
+}
+
+#slide7 .contact2 {
+    top: 65%;
+    -webkit-animation: bounceInDown 1s linear 3s both;
+    -o-animation: bounceInDown 1s linear 3s both;
+    animation: bounceInDown 1s linear 3s both;
+}
+
+
+@keyframes opacity {
+    from,0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: .25;
+    }
+    50%{
+        opacity: .5;
+    }
+    75%{
+        opacity: .75;
+    }
+    to,100%{
+        opacity: 1;
+    }
+}
